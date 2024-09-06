@@ -397,6 +397,9 @@ textarea::placeholder {
 	margin-bottom: 5px;
 	line-height: 1.3;
 }
+.numbers-num::after{
+	content: "+";
+}
 .numbers-desc {
 	font-weight: 300;
 }
